@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - 0.6
+script: "make all"
+install: "sudo aptitude -y -q install xsltproc xmlto calibre"
+branches:
+  only:
+    - travis-ci-trial
